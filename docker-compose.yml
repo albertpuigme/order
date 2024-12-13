@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17.1
+    environment:
+    - POSTGRES_DB=train
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=Temporal1
+    ports:
+    - 5433:5432
